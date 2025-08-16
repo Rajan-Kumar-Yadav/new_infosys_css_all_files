@@ -1,0 +1,115 @@
+.bgimg {
+   height: 100vh; 
+   overflow-x: hidden;
+  position: relative;
+}
+/* .nav-bar .fa {
+  display: none;
+} */
+ .nav-bar {
+ padding: 40px 120px;
+}
+/*.nav-links {
+  flex: 1;
+} */
+ .nav-links ul {
+  display: inline;
+}
+/*.nav-links ul li::after {
+  display: block;
+  background-color: orange;
+  margin: auto;
+  display: block;
+  transition: 05s;
+}
+.nav-lins ul li :hover ::after {
+  width: 100%;
+} */
+ ul a {
+  text-decoration: none;
+ }
+ .btn {
+ border: none;
+ background-color: rgba(230, 41, 41, 0.678);
+ cursor: pointer;
+
+} 
+.btn a {
+  text-decoration: none;;
+}
+.nav-links .btn a {
+  color: #000;
+} 
+/* .signup {
+  color: green;
+} .banner-title same class */
+
+  .banner-title {
+  margin: 80px 120px;
+ color: rgb(57, 22, 214);
+} 
+
+.banner-title h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+
+}
+.banner-title h1 span {
+  color: rgba(230,41,41,0.678);
+} 
+
+/* .nav-links {
+  background-color: #000;
+  text-align: left;
+  z-index: 2;
+}
+.nav-links ul a {
+display: block;
+} */
+ .wordCarousel div {
+ overflow: hidden;
+ position: absolute;
+ display: inline-block;
+ height: 555px;
+
+}
+
+.wordCarousel div li {
+    text-transform: capitalize;
+    font-size: 64px;
+    font-weight: bold;
+    padding: 0px 10px;
+    height: 70px;
+    display: block;
+    color: rgba(230,41 ,41,0.678 );
+}
+ .footer ul {
+margin-left: 400px;
+display: inline;
+}  
+footer ul li {
+  display: inline;
+  list-style: none;
+  padding: 8px, 20px;
+}
+.footer ul a {
+ text-decoration: none;
+ font-size: 15px;
+ color: rgba(240, 116,116, 0.678);
+}
+
+.footer {
+  text-align: center;
+   margin-bottom: 20px;
+  
+}
+ .footer a {
+ text-decoration: none;
+
+ }
+.footer a li {
+  display: inline;
+ margin: 15px;
+ color: rgba(240, 116,116, 0.678);
+
+}

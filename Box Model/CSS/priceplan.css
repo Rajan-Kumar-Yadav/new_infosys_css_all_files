@@ -1,0 +1,113 @@
+
+body {
+  border: 0;
+  background-image: none;
+}
+.articles {
+  border: 5px solid black;
+
+ 
+}
+.Free {
+border-top: 3px solid red;
+    text-align: center;
+ 
+  margin-bottom: 5px;
+    padding: 20px;
+    border-left: none;
+  border-right: none;
+  
+
+}
+.unlist-items {
+  padding: 0px;
+  margin: 0;
+}
+.btn-list {
+  border: none;
+  background-color: white;
+  color: rgb(167, 165, 165);
+  font-weight: 700;
+
+}
+
+/* table {
+ display: flex;
+ justify-content: space-around;
+}
+table tr {
+
+} */
+ .images-container {
+ background-image: url(../images/slide2.jpg) ;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ .price {
+  display: flex;
+  justify-content:flex-start;
+  border: 1px solid black;
+  height: 60px;
+    padding: 0;
+    list-style-type: none;
+    margin: 0px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+   
+ }
+ .price li {
+   
+
+
+
+    padding-top: 20px;
+
+
+     
+ }
+.monthly {
+  border-right: 1px solid black;
+     width: 250px;
+     padding-right: 145px;
+      margin-left: 10px;
+      color: white;
+}
+.zero {
+  border-right: 1px solid black;
+    width: 120px;
+    padding-left: 130px;
+     padding-right: 130px;
+
+}
+.two {
+  border-right: 1px solid black;
+     width: 120px;
+    padding-left: 130px;
+     padding-right: 130px;
+}
+.five {
+    width: 120px;
+    padding-left: 130px;
+     padding-right: 130px;
+  
+}
+.txt-top {
+  color: white;
+}
+.text-side {
+  font-weight: 900;
+  font-size: 25px;
+  color: white;
+ 
+}
+.tick {
+  color: green;
+  font-weight: 500;
+  font-size: 20px;
+}
+.wrong {
+  color: red;
+  font-weight: 500;
+  font-size: 20px;
+}

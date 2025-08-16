@@ -1,0 +1,40 @@
+#login_form {
+  border: 2px solid rgb(209, 204, 204);
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 30px;
+  width: 400px;
+  height: 350px;
+}
+h1 {
+ text-align: center;
+ text-shadow: 4px 4px 2px #3F51B5, -4px -4px 3px #E91E63;
+
+}
+input[type="email"],input[type="password"] {
+
+width: 80%;
+padding: 15px;
+border-radius: 20px;
+margin-left: 20px;
+border: 1px solid rgba(128,128,128,0.7);
+}
+#login_button {
+  width: 20%;
+  padding: 25px 5px;
+  margin-left: 20px;
+  background-color: #4d90fe;
+  border: none;
+  border-radius: 15px;
+  font: bold 1.2em myFirstFont1;
+ color: #fff;
+}
+#forgot_password {
+  margin-left: 25px;
+  text-decoration: none;
+}
+#create_account {
+margin-right: 5px;
+text-decoration: none;
+width: 350px;
+}

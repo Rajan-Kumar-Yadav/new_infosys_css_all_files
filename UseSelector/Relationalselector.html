@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Relational SElectors</title>
+    <style>
+      p {
+        margin-left: 50px;
+      }
+      h1 {
+        text-align: center;
+      }
+      h3 {
+        margin-left: 50px;
+      }
+      body p {
+        font-size: 30px;
+        font-family: Helvetica;
+        color: blue;
+      }
+      body > p {
+        color: red;
+      }
+      section + p {
+        color: maroon;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS3 Selectors</h1>
+    <h3>Relational Selectors</h3>
+    <p>This is a &lt;p&gt; element. Child of &lt; element.</p>
+    <section>
+      <p>
+        This is a &lt;p&gt; element. Grand child of &lt;body&gt; element. Placed
+        inside &lt;section&gt; element.
+      </p>
+    </section>
+    <p>
+      This is a &lt;p&gt; element. child of &lt;body&gt; element. Placed
+      immediately after &lt;section&gt; element.
+    </p>
+  </body>
+</html>

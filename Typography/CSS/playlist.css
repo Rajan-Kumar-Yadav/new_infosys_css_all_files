@@ -1,0 +1,98 @@
+.main-img {
+  width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+border-radius: 7px;
+    margin-top: 68px;
+}
+.main-cover {
+  width: 400px;
+  padding: 20px 0px 35px 40px;
+  position: relative;
+}
+.main-cover h1 {
+  width: 200px;
+  margin-left: 20px;
+  display: flex;
+  margin-top: 10px;
+ margin-bottom: 0px;
+
+}
+.main-cover h3 {
+  width: 200px;
+  margin-left: 20px;
+  display: flex;
+  text-decoration: none;
+    margin-top: 0px;
+ margin-bottom: 0px;
+
+
+}
+.main-cover h5 {
+  width: 200px;
+  margin-left: 20px;
+  display: flex;
+  text-decoration: none;
+   margin-top: 0px;
+ margin-bottom: 15px;
+}
+.play-all {
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 235px;
+  width: 100px;
+  height: 20px;
+  display: none;
+}
+.play-video {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  background-color: transparent;
+  border: 1px solid white;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+.play-audio {
+  position: absolute;
+  top: 250px;
+  left: 235px;
+   margin-top: 52px;
+}
+audio {
+  width: 500px;
+}
+.lyrics {
+  position: absolute;
+  top: 460px;
+  left: 40px;
+  width: 800px;
+
+
+}
+.lyrics h2 {
+  color: rgb(231, 231,160);
+}
+.lyrics p {
+  color: white;
+  font-size: 14px;
+}
+
+.heading-element {
+ margin-top: 50px;
+ margin-left: 200px;
+ width: 207px;
+ border: 3px solid red;
+
+}
+h1,h2,h3 {
+
+}
+h5 {
+  margin-top: 0px;
+}
